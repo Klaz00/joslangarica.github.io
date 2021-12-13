@@ -1,18 +1,16 @@
-*{
-  padding: 0;
-  margin:0;
-  box-sizing: border-box;
-}
 
-.navbar{
+
+/* Menu */
+/* .navbar{
     background-color: navy;
+    float:right;
     width:100%;
     height: 60px;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
     top: 0px;
-    left: 0;
+    left: 0px;
 }
 
 .navbar a{
@@ -24,96 +22,104 @@
   float:left;
   height: inherit;
   line-height: inherit;
-  padding: 5px 0px 0px 30px;
+  padding: 0px 0px 0px 30px;
   font-size: 40px; 
   text-transform: uppercase;
   letter-spacing: 2px;
   color:white;
   font-weight: bold;
 }
+
 .navbar ul{
-  float:right;
+  
   list-style: none;
-  height: inherit;
+  color: rebeccapurple;
   line-height: 25px;
   padding: 0; 
   margin: 0; 
 }
 .navbar ul li{
   display: inline-block; 
+  margin-left: 0;
+  color: white;
+
 }
+
 .navbar ul li a{
   display:block; 
   text-align:center;
   min-width: 120px;
   height: 60px;
   padding: 15px;
+  color: white;
+}
+*/
+
+
+/*
+
+*/
+
+.navbar-brand{
+  font-size: 40px;
+  margin-left: 35px;
+  
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  color:white;
+  
+  
+}
+.navbar-light .navbar-nav .nav-item {
 }
 .navbar ul li a:hover{
   background-color: orange;  
-}
+} 
+
+
+
+
 
 body{
   background-color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
-.content{
 
-  color: black;
-  margin-top: 10px;
-  margin-left: 30px;
-  padding-right: 100px;
-  width: auto;
-
+.card{
+  position: relative;
+  display: -ms-flexbox;
+  border: 0px;
 }
 
-.div{
-
- height: auto;
- margin-top: 50px;
-  width: 100%;
-  padding: 0px 10px 10px 10px;
-  
-}
-
-h1{
-  font-size: 50px;
-  color: black;
-}
-p{
+#plan-your-visit{
+  margin-left: 35px;
   margin-top: 15px;
+  width:fit-content;
+}
+
+#park-services {
+  padding: 15px;
+}
+
+p{
+  margin-top: 5px;
+  margin-left: 0;
   float:left;
   text-align: justify;
 }
 
-main{
-  display: grid;
-  grid-template-columns: auto auto auto ;
-}
 
-.mainUpper {
-  margin-top: 100px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 
-img{
-  max-width: 100%;
-  height: 100%;
-  margin-top: 0px;
-  margin-left: auto;
-  width: auto;
-  height: auto;
-}
-
-.imgGrid {
-  height: 300px;
-  margin-top: 10px;
-}
-
+/*Buttons */
 .btns{
   margin-top: 20px;
+ 
   float:left;
   background: orange;
   cursor:pointer;
@@ -139,16 +145,6 @@ footer{
   text-align: center;
 }
 
-.column {
-  float:left;
-  width: 33.33%;
-}
-
-.row:after{
-  content:"";
-  display: table;
-  clear: both;
-}
 
 
 
