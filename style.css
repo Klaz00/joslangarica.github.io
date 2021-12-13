@@ -75,11 +75,8 @@
   
   
 }
-.navbar-light .navbar-nav .nav-item {
-}
-.navbar ul li a:hover{
-  background-color: orange;  
-} 
+
+
 
 
 
@@ -97,14 +94,10 @@ body{
   border: 0px;
 }
 
-#plan-your-visit{
-  margin-left: 35px;
-  margin-top: 15px;
-  width:fit-content;
-}
+
 
 #park-services {
-  padding: 15px;
+  padding: 35px;
 }
 
 p{
@@ -134,7 +127,7 @@ p{
 }
 
 footer{
-  background-color: navy;
+  background-color:#007bff;
   width:100%;
   height: 60px;
   font-size: 20px;
