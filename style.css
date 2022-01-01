@@ -219,7 +219,7 @@ footer{
   
 }
 
-#info.card{
+.card{
   position: relative;
   display: -ms-flexbox;
  
