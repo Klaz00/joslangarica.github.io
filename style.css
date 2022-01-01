@@ -43,7 +43,9 @@ p-seasonal {
   
 }
 
-section {
+
+
+#home section {
 	height: 100%;
 	padding: 80px 0;
 	background-size: cover;
@@ -51,17 +53,23 @@ section {
 	background-position: center;
 }
 
-h1 {
+#home h1 {
 	text-align: center;
 	margin-bottom: 10px;
 }
 
-p {
+#home p {
 	text-align: center;
 	margin-bottom: 10px;
 	line-height: 1.5;
 	display: inline-block;
 	width: 50%;
+}
+
+
+#home img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
@@ -175,49 +183,7 @@ p {
 	background-color: blanchedalmond;
 }
 /******** Merchandise END ********/
-body{
-	background: white;
-	color:black;
-}
 
-a{
-	color:burlywood;
-}
-
-h1{
-	font-family: Arial, Helvetica, sans-serif
-}
-
-body{
-	font-family: sans-serif;
-}
-
-a{
-	font-family: sans-serif;
-	text-decoration: none;
-	font-size: 90%;
-	border-bottom: 2px solid transparent;
-	transition: border-bottom 0.2s;
-}
-
-a:hover{
-	color: pink;
-	background: white;
-	
-}
-
-.indent{
-	margin-left: 10px;
-}
-
-.center{
-	text-align: center;
-}
-
-img{
-	max-width: 100%;
-	max-height: 100%;
-}
 
 footer{
 	background-color: navy;
@@ -247,13 +213,13 @@ footer{
 
 
 /******* Info ********/
-body{
+#info body{
   background-color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
 
-.card{
+#info.card{
   position: relative;
   display: -ms-flexbox;
  
@@ -265,7 +231,7 @@ body{
   padding: 35px;
 }
 
-p{
+#info p{
   margin-top: 5px;
   margin-left: 0;
   float:left;
