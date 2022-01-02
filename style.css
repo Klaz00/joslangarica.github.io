@@ -96,7 +96,7 @@ p-seasonal {
  	align-content: center;
 }
 
-.card {
+#home .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -111,12 +111,12 @@ p-seasonal {
 }
 
 /* On mouse-over, add a deeper shadow */
-.card:hover {
+#home .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 /* Add some padding inside the card container */
-.container {
+#home .container {
   padding: 2px 16px;
 }
 
@@ -137,30 +137,30 @@ p-seasonal {
 	padding-bottom: 5px;
 }
 
-.title{
+#ticketing .title{
 	text-align: center;
 	padding: 25px 0px;
 }
 
-.title p{
+#ticketing .title p{
 	font-size: 18px;
 }
 
-.card-body {
+#ticketing  .card-body {
 	box-shadow: 0 0 20px 7px rgba(0,0,0,0.1);
 }
 
-.card {
+#ticketing .card {
 	margin: 20px 10px;
 	background-color: white;
 	transition: 0.3s;
 }
 
-.card:hover{
+#ticketing .card:hover{
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.card-body a{
+#ticketing .card-body a{
 	color: royalblue;
 	text-decoration: none;
 	font-size: 15px;
@@ -168,7 +168,7 @@ p-seasonal {
 	font-weight: 600;
 }
 
-.card-body a:hover {
+#ticketing .card-body a:hover {
 	color: pink;
 	text-decoration: none;
 }
@@ -241,7 +241,7 @@ footer{
 
 
 /*Buttons */
-.btns{
+#info.btns{
   margin-top: 20px;
  
   float:left;
@@ -253,7 +253,7 @@ footer{
   border-radius: 5px;
   margin-left: px;
 }
-.btns:hover{
+#info.btns:hover{
   background: navy;
 }
 
