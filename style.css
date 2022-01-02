@@ -219,7 +219,7 @@ footer{
   
 }
 
-.card{
+#info .card{
   position: relative;
   display: -ms-flexbox;
  
@@ -241,7 +241,7 @@ footer{
 
 
 /*Buttons */
-#info.btns{
+#info .btns{
   margin-top: 20px;
  
   float:left;
@@ -253,7 +253,7 @@ footer{
   border-radius: 5px;
   margin-left: px;
 }
-#info.btns:hover{
+#info .btns:hover{
   background: navy;
 }
 
