@@ -37,21 +37,16 @@
 /******* Home Page Index ********/
 /* ------ SECTION 1 ------*/
 
-p-seasonal {
-  text-align: center;
- color: blueviolet;
+p.seasonal {
+	text-align: center;
+	color: blueviolet;
   
 }
 
-
-
-#home section {
-	height: 100%;
-	padding: 80px 0;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+#home .container {
+	padding: 2px 16px;
 }
+
 
 #home h1 {
 	text-align: center;
@@ -73,17 +68,20 @@ p-seasonal {
 }
 
 
-
-
 .section1 {
 	color: white;
 	text-align: center;
 	margin-top: 10%;
 	padding: 10px 100px 0 100px;
-  text-justify:distribute;
+	text-justify:distribute;
 }
 
 .seasonal {
+	height: 100%;
+	padding: 80px 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/seasonal.jpg);
 }
 
@@ -91,7 +89,6 @@ p-seasonal {
 /* ------ SECTION 2 ------*/
 .section2 {
 	text-align: center;
-	display: grid;
 	grid-template-columns: auto auto auto;
  	align-content: center;
 }
@@ -104,11 +101,13 @@ p-seasonal {
   border-radius: 0px;
 }
 
-#section3 {
-  align-content: center;
-  padding-top: 0px ;
- margin-top: 0;
+.section3 {
+	align-content: center;
+	padding-top: 0px ;
+	margin-top: 0;
 }
+
+
 
 /* On mouse-over, add a deeper shadow */
 #home .card:hover {
