@@ -57,7 +57,27 @@
                                     <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
                                     <li>Lorem, ipsum.</li>
                                 </ul>
-                                <button type="button" class="btn mt-auto btn-sm btn-outline-primary btn-outline-info">Find out more</button>
+                                <!--Find out more triggers a modal for more information on the park-->
+                                <button type="button" class="btn mt-auto btn-sm btn-outline-primary btn-outline-info" data-toggle="modal" data-target="#park1">Find out more</button>
+                                <div class="modal fade" id="park1" tabindex="-1" role="dialog" aria-labelledby="Park-1-Info" aria-hidden="true">
+                                    <div class="modal-dialog modalCenter" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="park1-info">Park 1</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>This is park 1!</h5>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fugit hic ab sapiente veritatis amet officia quasi consectetur ipsa impedit, reprehenderit nam quod id rem voluptate modi non quis eaque.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <button type="button" class="btn mt-2 btn-sm btn-primary btn-success">Buy now!</button>
                                 
                             </div>
@@ -72,7 +92,26 @@
                                     <li>Lorem, ipsum dolor.</li>
                                     <li>Lorem, ipsum.</li>
                                 </ul>
-                                <button class="btn mt-auto btn-sm btn-outline-primary btn-outline-info">Find out more</button>
+                                <button class="btn mt-auto btn-sm btn-outline-primary btn-outline-info" data-toggle="modal" data-target="#park2">Find out more</button>
+                                <div class="modal fade" id="park2" tabindex="-1" role="dialog" aria-labelledby="Park-2-Info" aria-hidden="true">
+                                    <div class="modal-dialog modalCenter" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="park2-info">Park 2</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>This is park 2!</h5>
+                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates veniam modi nesciunt maxime est quaerat beatae mollitia consequatur distinctio ducimus, minima quod! Voluptatum voluptatibus asperiores vel, corrupti atque earum ea perferendis neque eum impedit dolorum! Atque saepe quo sunt accusantium inventore quibusdam! Neque voluptates vitae illo qui ad delectus sequi!</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <button class="btn mt-2 btn-sm btn-primary btn-success">Buy now!</button>
                             </div>
                         </div>
@@ -87,7 +126,26 @@
                                     <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
                                     <li>Lorem ipsum dolor sit amet consectetur.</li>
                                 </ul>
-                                <button class="btn mt-auto btn-sm btn-outline-primary btn-outline-info">Find out more</button>
+                                <button class="btn mt-auto btn-sm btn-outline-primary btn-outline-info" data-toggle="modal" data-target="#park3">Find out more</button>
+                                <div class="modal fade" id="park3" tabindex="-1" role="dialog" aria-labelledby="Park-3-Info" aria-hidden="true">
+                                    <div class="modal-dialog modalCenter" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="park3-info">Park 3</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h5>This is park 3!!</h5>
+                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, totam, reiciendis aperiam rerum repellat facilis quasi sint sed, est eligendi quia sunt molestiae eaque autem asperiores officia tenetur sapiente corrupti beatae nihil veritatis voluptates nemo laborum. Atque rem exercitationem iusto repudiandae assumenda illo sed enim aspernatur cupiditate! Error ex sed numquam architecto tenetur! Mollitia sequi temporibus ab quis, eius nulla eos doloribus alias sed non facere! Ipsa deleniti nesciunt tempore?</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <button class="btn mt-2 btn-sm btn-primary btn-success">Buy now!</button>
                             </div>
                         </div>
@@ -97,7 +155,7 @@
 
         <hr></hr>
 
-        <section id="seasonal_tickets">
+        <section id="seasonal_tickets"> <!--More work to be done here!-->
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -106,7 +164,26 @@
                     <div class="col-md-8">
                         <h3 class="card-title">Seasonal event tickets</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum beatae, amet tempora, sequi exercitationem vero voluptates debitis nobis aspernatur laudantium error minima fugit ad dolore ipsum velit hic. Eos, neque.</p>
-                        <button class="btn mt-auto btn-sm btn-outline-primary btn-outline-info">Learn more</button>
+                        <button class="btn mt-auto btn-sm btn-outline-primary btn-outline-info" data-toggle="modal" data-target="#season-tix">Learn more</button>
+                        <div class="modal fade" id="season-tix" tabindex="-1" role="dialog" aria-labelledby="seasonal-info" aria-hidden="true">
+                            <div class="modal-dialog modalCenter modal-lg" role="document"> <!--modal-lg opens a larger sized modal-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="seasonal-info">Seasonal event</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5>Happy holidays!</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae fugit hic ab sapiente veritatis amet officia quasi consectetur ipsa impedit, reprehenderit nam quod id rem voluptate modi non quis eaque.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <button class="btn mt-auto btn-sm btn-primary btn-success">Buy now!</button>
                     </div>
                 </div>
