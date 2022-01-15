@@ -172,6 +172,12 @@ p.seasonal {
 	text-decoration: none;
 }
 
+/*This is to make the modal appear at the center of the screen, please check as there might already be a pre-made function to call this */
+.modalCenter{
+	top: 50% !important; /* !important overrides all previous styling rule */
+	transform: translateY(-50%) !important;
+}
+
 /******** Testing button style
 #ticketing .btns{
 	width: 100px;
