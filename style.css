@@ -300,8 +300,23 @@ footer{
   text-align: center;
 }
 
+/*
+ These control the position on the borders within the tickets page for the "before you buy" section, the width min/max width has to be determined!
+*/
+@media screen and (max-width:759px){
+	.text-border{
+		border-bottom: 1px solid black;
+	}
+	.text-border-1{
+		border-bottom: 1px solid black;
+	}
+}
 
-
-
+@media screen and (min-width:760px){
+	.text-border{
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+	}
+}
 
 
